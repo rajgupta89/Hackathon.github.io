@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navi {
+            color: white;
+        }
+        header nav {
+            background-color: rgb(58, 121, 240);
+            height: 10vh;
+            display: flex;
+            padding: 3px 0px 0px 0px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1vw;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 493px;
+            
+        }
+        h1{
+            color: black;
+        }
+        img{
+            width: 30%;
+        }
+        /* .img2{
+            width: 60%;
+        } */
+           footer {
+            background-color: blue;
+            color: white;
+            padding: 1vw;
+            font-size: 80%;
+            text-align: center;
+            text-transform: uppercase
+        }
+        @media screen and (max-width: 800px) {
+            .container{
+                /* background-color: yellow; */
+                height: 670px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="navi">General Call</h1>
+            <!-- <h1 class="navi"><a href="#">Home</a></h1> -->
+        </nav>
+    </header>
+    <br><br>
+    <h2 style="text-align: center; " class="web">Website Name</h2>
+    <br><br>
+    <div class="container">
+        <div class="img1">
+            <a href="/voice_video_call/call.html"><img src="/Images/voice_call.png" alt=""></a>
+            <br>
+            <a href="/voice_video_call/call.html"><h1>Voice Call</h1></a>
+        </div>
+        <div class="img2">
+            <a href="/voice_video_call/call.html"><img src="/Images/video_call.png" alt=""></a>
+
+            <a href="/voice_video_call/call.html"><h1>Video Call</h1></a>
+        </div>
+    </div>
+     <footer>
+        CopyRight &copy Team Garima. All Right Reserved.
+    </footer>
+</body>
+
+</html>

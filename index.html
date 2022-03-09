@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+         .navi{
+             color:white;
+        }     
+
+        header nav img {
+            width: 4vw;
+            height: 4vw;
+            border: 2px solid red;
+            border-radius: 40px;
+        }
+
+        header nav {
+            background-color: rgb(58, 121, 240);
+            height: 10vh;
+            display: flex;
+            padding: 3px 0px 0px 0px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1vw;
+        }
+        .button{
+            text-align: center;
+            align-items: center;
+            
+        }
+        @media screen and (max-width: 800px) {
+            .button{
+                /* background-color: yellow; */
+                height: 720px;
+            }
+        }
+        .button button {
+            padding: 1vw;
+            margin: 8vh;
+            background-color: rgb(58, 121, 240);
+            color: black;
+            font-weight: 900;
+            width: 110px;
+        }
+        footer{
+            background-color: blue;
+            color: white;
+            padding: 1vw;
+            font-size: 80%;
+            text-align: center;
+            text-transform: uppercase
+            }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="navi">Home</h1>
+                <!-- <h1 class="navi"><a href="#">Home</a></h1> -->
+        </nav>
+    </header>
+    <br><br>
+    <h2 style="text-align: center; " >Website Name</h2>
+    <div class="button">
+        <a href="/Injury/injury.html"><button>Injury</button></a>
+        <br>
+        <a href="/General_Call/general_call.html"><button>General Call</button></a>
+        <br>
+        <a href="/Doctor/doctor.html"><button>Emergency</button></a>
+        
+    </div>
+    
+    <footer>
+        CopyRight &copy Team Garima. All Right Reserved. 
+    </footer>
+</body>
+
+</html>
